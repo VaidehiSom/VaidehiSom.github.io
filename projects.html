@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	
-    <title>Nishant - My Projects</title>
+    <title>Vaidehi - My Projects</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,8 +48,8 @@
          <ul class="nav navbar-nav navbar-right">
            
             <li class="current"><a href="#about" class="linear">Home</a></li>
-            <li><a href="#ProjectList" class="linear">Project List</a></li>
-            <li><a href="#Internships" class="linear">Internships</a></li>
+            <!-- <li><a href="#ProjectList" class="linear">Project List</a></li> -->
+            <li><a href="#WorkExp" class="linear">Work Experience</a></li>
             <li><a href="#Projects" class="linear">Projects</a></li>
           </ul>
         
@@ -71,15 +71,15 @@
 					<h2>Read more for details about my projects</h2>
 					<a href="#Projects" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">PROJECTS</a>
 				</li>
-                <li>
+                <!-- <li>
                     <h1>Projects at a Glance</h1>
                     <h2>Click below to see a categorized list of the projects</h2>
                     <a href="#ProjectList" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">PROJECT LIST</a>
-                </li>
+                </li> -->
 				<li>
-					<h1>This page also contains details of my Internships</h1>	
+					<h1>This page also contains details of my Work Experience</h1>	
 					<h2>The description of my internship projects are also provided below</h2>
-					<a href="#Internships" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">INTERNSHIPS</a>
+					<a href="#WorkExp" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">WORK EXPERIENCE</a>
 				</li>
 			</ul>
 		</div> 
@@ -89,490 +89,15 @@
     </div>
 	<!-- end header -->
     <!-- /Full Page Image Header Area -->
-    
-    <!-- ProjectList -->
-    <div id="ProjectList" class="page clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10  col-md-offset-1">
-                    <div class="build title-page">
-                        <h2 class="text-center">PROJECTS AT A GLANCE</h2>   
-                        <div class="line-title bg-primary"></div>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-            
-            <div class="col-md-12">
-                
-                <ul id="filterOptions" class="clearfix">
-                    <li class="cur"><a class="btn btn-link linear" href="#" data-group="all">All</a></li>
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="intern">Internship Projects</a></li>
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="deep">Deep Learning</a></li> 
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="cv">Computer Vision</a></li> 
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="nlp">Robotics</a></li> 
-                    <!-- <li><span>/</span></li> -->
-                    <!-- <li><a class="btn btn-link linear" href="#" data-group="algo">Algorithms</a></li>  -->
-                    <li><span>/</span></li>
-                    <li><a class="btn btn-link linear" href="#" data-group="other">Others</a></li> 
-                    <!-- Internship Projects, Deep Learning, Computer Vision, NLP, Algorithms, Others -->
-                </ul>
-               
-            </div><!--end-col-->
-            <div class="col-md-12">
-            <div class="folio-content clearfix">
-            <div class="row">
-            <div class="container_folio clearfix gallery" id="grid">
 
-
-            <!-- - Visual Question Answering using Semantic Attention    (Deep, CV)  (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "deep", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/vqa.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Visual Question Answering using Semantic Attention" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#vqa" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/vqa.png" alt="Visual Question Answering">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Visual Question Answering</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Real Time Vehicle Recognition and Automatic Number Plate Recognition  (CV)    (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/vehicle.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Real Time Vehicle Recognition and Automatic Number Plate Recognition" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#vehicle" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/vehicle.png" alt="Real Time Vehicle Recognition and Automatic Number Plate Recognition">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>RT Vehicle Recognition</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Visual Story Telling  (Deep, CV, NLP) (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "deep", "cv", "nlp"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/story.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Visual Story Telling" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#story" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/story.png" alt="Visual Story Telling">
-                               
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Visual Story Telling</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Merging Point Clouds  (Intern, CV)    (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "intern", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/pcloud.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Merging Point Clouds" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#caris" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/pcloud.jpg" alt="Merging Point Clouds">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Merging Point Clouds</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Predicting Human Arm Reach    (Intern, CV)    (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "intern", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/caris.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Predicting Human Arm Reach" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#caris" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/caris.jpg" alt="Predicting Human Arm Reach">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Predicting Human Arm Reach</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Adaptive Strategies for Prisoner's Dillema    (Other) (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/ipd.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Adaptive Strategies for Prisoner's Dillema" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#ipd" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/ipd.jpg" alt="Adaptive Strategies for Prisoner's Dillema">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Adaptive Strategies for IPD</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Chalearn Personality Trait Analysis   (Deep, CV)  (Fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "deep", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/chalearn.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Personality Trait Analysis" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#chalearn" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/chalearn.jpg" alt="Chalearn Personality Trait Analysis">
-                               
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Personality Trait Analysis</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- - ADA Compiler  (Other) (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/ada.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="ADA Compiler" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#ada" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/ada.jpg" alt="ADA Compiler">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>ADA Compiler</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- AdaScan: Adaptive Scan Pooling for Action Recognition (Deep, CV) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "deep", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/adascan.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="AdaScan: Adaptive Scan Pooling" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#adascan" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/adascan.jpg" alt="AdaScan: Adaptive Scan Pooling">
-                               
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>Adaptive Scan Pooling</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- Multi View clustering using NMF -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "intern", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                           <div class="thumb-img">
-                          
-                          <div class="link-attr">
-                                <a href="img/portfolio/mvc.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Multi View Clustering using NMF" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                               <a href="projects.html#xrci" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                           </div>
-                            <img class="linear img-portfolio img-responsive" src="img/portfolio/mvc.jpg" alt="Multi View Clustering">
-                          
-                           
-                           <div class="folio-caption">
-                           <i class="fa fa-caret-up"></i>
-                               <p>Multi View Clustering</p>
-                              
-                           </div>
-                           </div>
-                        </div>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <!-- - Computer Networks (Proxy, etc)    (Other) (fig done) -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item ">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/networks.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Computer Networks Course Project" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                   <a href="projects.html#network" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/networks.jpg" alt="Computer Networks Course Project">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                        <p>CS425A Course Project</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-            </div>
-
-            <!-- Estimating and Computing Multiple senses of a word -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "nlp"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                        <div class="thumb-img">
-                         <div class="link-attr">
-                            <a href="img/portfolio/multivec.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Estimating and Computing Multiple senses of a word" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                           <a href="projects.html#multivec" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                       </div>
-                        <img class="linear img-portfolio img-responsive" src="img/portfolio/multivec.png" alt="Word Embeddings using multiple prototypes">
-                         <div class="link"><a href="#">This Is Folio Link2</a></div>
-                        <div class="folio-caption">
-                        <i class="fa fa-caret-up"></i>
-                           <p>Multiple Word Embeddings</p>
-                       </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Alternate Paths between nodes in massive Road Networks -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "intern", "algo"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                        <div class="thumb-img">
-                        <div class="link-attr">
-                            <a href="img/portfolio/altpath.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Alternate Paths between nodes in massive Road Networks" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                           <a href="projects.html#inria" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                       </div>
-                         <img class="linear img-portfolio img-responsive" src="img/portfolio/altpath.jpg" alt="Real Word Road Networks">
-                           <div class="link"><a href="#">This Is Folio Link3</a></div>
-                           <div class="folio-caption">
-                           <i class="fa fa-caret-up"></i>
-                           <p>Alternate Paths in Graphs</p>
-                           </div>
-                           </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feature Representations of Social Networks -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "intern", "algo"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                        <div class="thumb-img">
-                        <div class="link-attr">
-                            <a href="img/portfolio/socnet.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Feature Representations of Social Networks" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                           <a href="projects.html#inria" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                       </div>
-                        <img class="linear img-portfolio img-responsive" src="img/portfolio/socnet.jpg" alt="Feature Representations of Social Networks">
-                          <div class="link"><a href="#">This Is Folio Link3</a></div>
-                          <div class="folio-caption">
-                          <i class="fa fa-caret-up"></i>
-                           <p>Social Networks</p>
-                           </div>
-                         </div>
-                        </div>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <!-- NachOS Operating System -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/nachos.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="NachOS Operating System" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                    <a href="projects.html#nachos" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/nachos.jpg" alt="NachOS">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                    <p>NachOS Operating System</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Re-Invention of Efficient Geometric Data Structures -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "algo"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/geodata.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Re-Invention of Efficient Geometric Data Structures" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                    <a href="projects.html#geodata" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/geodata.png" alt="Geometric Data Structures">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                    <p>Geometric Data Structures</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Detection of Emotions using Multiple Modes -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "cv"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/emodet.png" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Multi Modal Emotion Recognition (Using Visual, Acoustic and Textual Info)" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                    <a href="projects.html#emodet" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/emodet.png" alt="Multi modal Emotion Detection">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                    <p>Multi Modal Emotion Recog.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- News Report Classification -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "nlp"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/newsrep.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="News Report Classification" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                    <a href="projects.html#newsrep" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/newsrep.jpg" alt="News Report Classification">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                    <p>News Report Classification</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
-            <!-- Other projects -->
-            <div class="col-xs-12 col-sm-3 col-md-3 box" data-groups='["all", "other"]'>
-                <div class="folio-img">
-                    <div class="portfolio-item">
-                        <div class="thumbnail">
-                            <div class="thumb-img">
-                                <div class="link-attr">
-                                    <a href="img/portfolio/other.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Other Minor Projects" class="link-search animated linear"><i class="fa fa-search"></i></a>
-                                    <a href="projects.html#other" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
-                                </div>
-                                
-                                <img class="linear img-portfolio img-responsive" src="img/portfolio/other.jpg" alt="Other Minor Projects">
-                                
-                                <div class="folio-caption">
-                                    <i class="fa fa-caret-up"></i>
-                                    <p>Other Minor Projects</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            </div>
-          
-            </div>
-            </div><!-- end folio content -->
-            </div><!-- end col -->
-        </div>
-    </div><!--end container-->
 
     <!-- Internships -->
-    <div id="Internships" class="page clearfix">
+    <div id="WorkExp" class="page clearfix">
         <div class="container">
 			<div class="row">
         		<div class="col-md-10  col-md-offset-1">
 		    		<div class="build title-page">
-						<h2 class="text-center">INTERNSHIPS</h2>	
+						<h2 class="text-center">WORK EXPERIENCE</h2>	
 							<div class="line-title bg-primary"></div>
 					</div>
 		 		</div><!-- end col -->
@@ -586,7 +111,7 @@
 	      	<div class="row">
 			<div class="col-md-10  col-md-offset-1">
 		    		<div class="build title-page">
-						<h2 class="text-center">University of British Columbia</h2>	
+						<h2 class="text-center">PAL Lab- GRASP, University of Pennsylvania</h2>	
 							<div class="line-title bg-primary"></div>
 					</div>
 			 	</div><!-- end col -->
@@ -594,12 +119,22 @@
 
 	        <div class="row">
 				<div class="col-md-4">
-		          <h5><b>THE INTERNSHIP</b></h5>
-		          <p class="desc">I interned at CARIS Lab, University of British Columbia during summers '16 through the MITACS internship programme. I was mentored by Justin Hart, Post Doc, CARIS Lab and Elizabeth Croft, Head, CARIS Lab, for prediction of single-arm reaching motion by humans in order to create smooth and safe Human-Robot interactions. The internship involved training in ROS (Robot Operating System) and working on several robot platforms, including a Barrett WAM 7-DOF Robot and the Willow Garage PR2 Robot.</p>
+		          <h5><b>THE RESEARCH</b></h5>
+		          <p class="desc">I am a Research Assistant at <a href="">Perception, Action, and Learning (PAL) Lab</a> at GRASP, 
+                University of Pennsylvania. I am being mentored by <a href="">Dr. Dinesh Jayaraman</a>, lead PAL Lab and 
+                  <a href="">Jason Ma</a>, doctoral student under Dr. Dinesh. We am working on making the robot perform household tasks in 
+                unstructured environment based on very little data using Reinforcement Learning. 
+                My research involves me preparing different architectures to train policies which can perform 
+                tasks given by language commands. 
+                The policy is trained on data collected on Franka Panda robotic arm and is also tested on the same hardware.</p>
 		        </div><!--/col-md-4-->
 		        <div class="col-md-4">
 		          <h5><b>SINGLE-ARM REACH PREDICTION</b></h5>
-		          <p class="desc">The main project I worked on was related to prediction of single arm motion by humans to create smooth human robot interactions, and was mentored by Justing Hart and Elizabeth Croft. It involved studying and analyzing the performance of multiple Hand and Model trackers and their inclusion in our pipeline. I also developed multiple interfaces to be used in the experimental setup for the final Human subject experiments.</p>
+		          <p class="desc">The main project I worked on was related to prediction of single arm motion by humans 
+                to create smooth human robot interactions, and was mentored by Justing Hart and Elizabeth Croft. 
+                It involved studying and analyzing the performance of multiple Hand and Model trackers and their 
+                inclusion in our pipeline. I also developed multiple interfaces to be used in the experimental setup 
+                for the final Human subject experiments.</p>
 		        </div><!--/col-md-4-->
 		        <div class="col-md-4">
 		          <h5><b>MERGING POINT CLOUDS</b></h5>
@@ -611,10 +146,10 @@
 
 	      	<div class="row">
 			  	<div class="col-md-6">
-		      		<center><a href="resources/caris_presentation.pdf" class="btn btn-clear btn-lg border-color linear hire">PRESENTATION</a></center>	
+		      		<center><a href="" class="btn btn-clear btn-lg border-color linear hire">PRELIMINARY RESULTS</a></center>	
 				</div>
 	          	<div class="col-md-6">
-		      		<center><a href=# class="btn btn-clear btn-lg border-color linear hire">CONFIDENTIAL (FOR NOW)</a></center>
+		      		<center><a href=# class="btn btn-clear btn-lg border-color linear hire">CODE CONFIDENTIAL (FOR NOW)</a></center>
 				</div>
 	      	</div><!--/row-->
 	      	<br>
@@ -628,7 +163,7 @@
 	      	<div class="row">
 			<div class="col-md-10  col-md-offset-1">
 		    		<div class="build title-page">
-						<h2 class="text-center">Xerox Research Centre India</h2>	
+						<h2 class="text-center">Addverb Technologies, India</h2>	
 							<div class="line-title bg-primary"></div>
 					</div>
 			 	</div><!-- end col -->
@@ -636,8 +171,17 @@
 
 	        <div class="row">
 				<div class="col-md-4">
-		          <h5><b>THE INTERNSHIP</b></h5>
-		          <p class="desc">I interned at Xerox Research Centre India, Bangalore during winters '15 (i.e. December '15). I was mentored by Om Deshmukh, Senior Researcher (Area Manager, Multimedia Analytics), XRCI and Sumit Negi, Principal Researcher, XRCI , for developing and evaluating algorithms for Multi View Clustering using Non Negative Matrix factorization. The work involved proposing and evaluating various algorithms for the task. Further details upon completion of the work. The work has been accepted as an <b>Oral</b> presentation at the <b>International Conference on Pattern Recognition '16</b>.</p>
+		          <h5><b>THE WORK</b></h5>
+		          <p class="desc"> I was a Mobile Robotics Software Engineer at Addverb Technologies, India.
+                 
+                I interned at Xerox Research Centre India, Bangalore during winters '15 (i.e. December '15). 
+                I was mentored by Om Deshmukh, Senior Researcher (Area Manager, Multimedia Analytics), XRCI and 
+                Sumit Negi, Principal Researcher, XRCI , for developing and evaluating algorithms for 
+                Multi View Clustering using Non Negative Matrix factorization. 
+                The work involved proposing and evaluating various algorithms for the task. 
+                Further details upon completion of the work. 
+                The work has been accepted as an <b>Oral</b> presentation at the <b>International Conference on 
+                Pattern Recognition '16</b>.</p>
 		        </div><!--/col-md-4-->
 		        <div class="col-md-5">
 		          <h5><b>THE PROJECT</b></h5>
@@ -1380,6 +924,173 @@
             <div class="col-md-10  col-md-offset-1">
               <div class="panel-body">
 
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+                <h4>
+                    <strong><a href="https://github.com/VaidehiSom/GestureRecognition">Gesture Recognition controlled Robotic Arm</a></strong> | Deep Learning, Computer Vision, ROS
+                </h4>
+                <!-- <h6>
+                  <div class="right"> <small> May ’20 - Jul ’20 </small></div>
+                  </h6>
+                <br> -->
+                <div class="about-content">  
+                      <UL>
+                        <LI>Implemented ResNet, non-max suppression, huber loss, and detected hand landmarks Video/Report
+                            <LI>Generated data of 25k images, performed data augmentation to obtain 98% accuracy with loss less than 1
+                        <LI>Detected key-points from video input using Intel-RealSense Camera, were used to define various gestures
+                        <LI>Simulated robotic arm using ROS and Gazebo to perform pick up tasks. Enhanced arm movements using gesture inputs
+                      </UL>
+                  </div>
+                  <br>
+    
+                  <h4>
+                    <strong><a href="https://github.com/VaidehiSom/StereoVO">Stereo Visual Odometry</a></strong> | Geometric Computer Vision, C++, Ceres, Kitti
+                </h4>
+                <!-- <h6>
+                  <div class="right"> <small> May ’20 - Jul ’20 </small></div>
+                  </h6>
+                <br> -->
+                <div class="about-content">  
+                      <UL>
+                        <LI> Implemented Stereo Visual Odometry for stereo images to find 3D locations of keypoints in those images
+                        <LI> Used GFTT for feature detection and triangulation for 3D point location
+                        <LI> Implemented direct method and optical flow for pose and feature estimation during feature tracking
+                        <LI> Implemented Bundle Adjustment for backend optimization
+                      </UL>
+                  </div>
+                  <br>
+    
+    
+                <h4>
+                  <strong><a href="https://github.com/VaidehiSom/Trajectory_Prediction_and_Dynamic_Obtacle_Avoidance_for_SDC">Trajectory prediction and Dynamic Obstacle avoidance for SDC</a></strong> | PINN, LSTM, Deep Learning
+              </h4>
+              <div class="about-content">  
+                    <UL>
+                      <LI> Implemented and compared Social LSTM, OLSTM and GRU for pedestrians trajectory prediction
+                      <LI> Modelled the non linear dynamics of MPC using Physics informed Neural Nets for motion planning
+                      <LI> Used Lifelong A* and pedestrian’s trajectory as dynamic obstacles for planning obstacles
+                        </UL>
+                </div>
+                <br>
+                
+                
+                
+    
+                  <h4>
+                    <strong><a href="https://github.com/VaidehiSom/MobileRobot_Simulation_and_SLAM">Mobile Robot: Simulation and SLAM</a></strong> | ROS Navigation stack, C++, AMCL, EKF, Gazebo
+                  </h4>
+                  <div class="about-content">
+                      <UL>
+                        <LI> Simulated ball chasing robot, detection via colors. Designed URDF model and arena
+                          <LI>  Implemented localization using AMCL, gmapping for 2D and RTABMap for 3D mapping
+                            <LI> Deployed SLAM and Navigation using Dijkstra algorithm and simulated pick and place operation
+                      </UL>
+                  </div>
+
+
+<!----------------------------------------------------------------------->
+            <h4>
+                <strong><a href="https://github.com/VaidehiSom/RoboticArm">Robotic Arm 6 dof</a></strong>
+              </h4>
+              <div class="about-content">
+                  <UL>
+                    <LI> Developed and programmed 6 dof Robotic arm for 2 kgs payload
+                    <LI>  Implemented forward and inverse kinematics executed by micro controllers for position control of DC motors
+                    <LI>  Programmed motion planning. Modifiable to perform pick/place using different end effectors
+                  </UL>
+              </div>
+              <br>
+
+            <h4>
+              <strong><a href="https://github.com/VaidehiSom/CombatRobot">Combat Robot</a></strong>
+            </h4>
+            <div class="about-content">
+                <UL>
+                  <LI> Self-designed and fabricated the combat bot which in turn is capable of destroying other bots using its weapon mechanism consisting of a rotating drum
+                    <LI> Led the team of 6 members for participating in Robowars event at IIT Bombay’s TechFest
+                      <LI> One of the 20 teams selected from all over India for the main event at IIT Bombay
+                        <LI> The bot was manufactured to battle with other bots in 15kgs category
+                </UL>
+            </div>
+            <br>
+
+            <h4>
+              <strong><a href="https://github.com/VaidehiSom/Quadruped">Quadruped</a></strong> | Python, ROS 
+            </h4>
+            <div class="about-content">
+                <UL>
+                  <LI> Fabrication of Quadruped, inspired by MIT spot micro
+                    <LI>  Communication of motors and motor drivers
+                      <LI>  Integrated IMU data, via arduino, for improved odometry and balance
+                        <LI>  Using ROS Navigation stack
+                </UL>
+            </div>
+            <br>
+
+              <h4>
+                <div class="left"> <strong><a href="https://github.com/VaidehiSom/WindowCleaningRobot">Window Cleaning Robot - Design</a></strong> </div>
+                <!-- <div class="left"> <strong>Window Cleaning Robot - Design</strong> </div> -->
+                    <!-- <div class="right"> <strong> Jan '20</strong> </div> -->
+                    <br>
+              </h4>
+              <div class="about-content">
+                  <UL>
+                    <LI> Designed a novel model for window cleaning robot in Tech Fest, IIT Ropar using Solidworks. 3rd position out of 15 teams
+                    <LI> Used concepts of Electric Ducted fans(EDF), speed controller, IR/IMU sensors, Drivers, and Arduino Mega for designing
+                  </UL>
+              </div>
+              <br>
+
+              <h4>
+                    <div class="left"> <strong><a href="https://github.com/VaidehiSom/RouteOptimization">BOSCH-Bus Route Optimization</a></strong> </div>
+                    <!-- <div class="right"> <strong> Dec '19</strong> </div> -->
+                    <br>
+              </h4>
+              <div class="about-content">
+                  <UL>
+                    <LI>  Constraint programming, OR tools, Google MAP API
+                      <LI>  Inter IIT Tech Fest, earned silver medal
+                  </UL>
+              </div>
+              <br>
+
+              <h4>
+                    <div class="left"> <strong><a href="">Multi View Geometry</a></strong> </div>
+                    <!-- <div class="right"> <strong> May '16 - Jul '16</strong> </div> -->
+                    <br>
+              </h4>
+              <div class="about-content">
+                  <UL>
+                     <LI> Compute camera pose and 3D point cloud from images using Structure from Motion, Bundle adjustment
+                      <LI>  Camera localization using PnP, point triangulation, non linear refinement
+                  </UL>
+              </div>
+              <br>
+
+              <h4>
+                <strong><a href="https://github.com/VaidehiSom?tab=repositories">Environment perception for self driving car</a></strong> | Python, RANSAC, Segmentation
+              </h4>
+              <div class="about-content">
+                  <UL>
+                    <LI> Implemented drivable space estimation in 3D, lane estimation, and obstacle distance from car using the output of semantic segmentation neural networks
+                  </UL>
+              </div>
+              <br>
+
+              <h4>
+                    <strong><a href="">Other Minor Projects</a></strong>
+              </h4>
+              <div class="about-content">
+                  <UL>
+                    <LI>  Implement ES-EKF to localize self driving car in simulation</LI>
+                    <LI> Style Transfer </LI>
+
+                   </UL>
+              </div>
+              <br>
+              
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+
                     <div class="about-content">
                           <UL>
                             <LI> Developed a bot to play <strong>Othello</strong>. It was based on the Minimax algorithm. Alpha-beta Pruning is also performed to speed up computations. Secured <strong>19th</strong> place amongst <strong>2000+</strong> participants from over the world.
@@ -1429,17 +1140,17 @@
     <footer class="bg-black">
       <div class="container">
         <div class="row">
-			<div class="col-md-7 text-right">
-		
-			<ul class="list-inline">
-			<li><a href="https://www.facebook.com/nishant.rai.95" class="socIcon color-primary linear"><i class="fa fa-facebook fa-2x"></i></a></li>
-			<li><a href="https://plus.google.com/u/0/102468960984224405469/posts" class="socIcon color-primary linear"><i class="fa fa-google-plus fa-2x"></i></a></li>
-			<li><a href="https://github.com/nishantrai18" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
-			<li><a href="https://bitbucket.org/nishantrai/" class="socIcon color-primary linear"><i class="fa fa-bitbucket fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/nishant-rai-9467ab111?trk=nav_responsive_tab_profile_pic" class="socIcon color-primary linear"><i class="fa fa-linkedin fa-2x"></i></a></li>
-			</ul>
-		
-			</div>
+            <div class="col-md-7 text-right">
+        
+            <ul class="list-inline">
+            <li><a href="https://github.com/VaidehiSom" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidehi-som-5aa020165/" class="socIcon color-primary linear"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/SomVaidehi" class="socIcon color-primary linear"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://vaidehi-som.medium.com/" class="socIcon color-primary linear"><i class="fa fa-medium fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/vaidehisom/" class="socIcon color-primary linear"><i class="fa fa-instagram fa-2x"></i></a></li>
+            </ul>
+        
+            </div>
         </div>
       </div>
     </footer>
@@ -1459,7 +1170,7 @@
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     
-    <script>
+    <!-- <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -1467,7 +1178,17 @@
 
 	  ga('create', 'UA-72535905-1', 'auto');
 	  ga('send', 'pageview');
-	</script>
+	</script> -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVWJ7K9WFV"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VVWJ7K9WFV');
+  </script>
 
   </div>
   </body>
