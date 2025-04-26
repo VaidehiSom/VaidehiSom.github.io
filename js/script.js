@@ -1,3 +1,7 @@
+jQuery.htmlPrefilter = function(html) {
+  return html;
+};
+
 (function(){
  "use strict";
 
