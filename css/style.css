@@ -878,3 +878,14 @@ margin-top: 10px;
     }
 
 }
+
+/* Responsive button styles */
+@media screen and (max-width: 767px) {
+  .buttons-row .col-md-4 {
+    margin-bottom: 15px;
+  }
+  .buttons-row .btn.btnAbout {
+    display: block;
+    width: 100%;
+  }
+}
