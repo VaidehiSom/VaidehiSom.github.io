@@ -286,7 +286,7 @@ margin: 0 auto;
 .page{
   padding: 40px 0;
   position:relative;
-  border-bottom:5px solid #dedede;
+  border-bottom:none;
 }
 .page:last-of-type{
 border-bottom:none;

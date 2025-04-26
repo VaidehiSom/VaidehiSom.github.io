@@ -2,6 +2,23 @@ jQuery.htmlPrefilter = function(html) {
   return html;
 };
 
+// Compatibility fix for FlexSlider with jQuery 3.x
+if (jQuery.fn.jquery.split('.')[0] >= 3) {
+  // Add back deprecated jQuery methods needed by FlexSlider
+  jQuery.fn.load = function(callback) {
+    return this.on("load", callback);
+  };
+  
+  // Fix for .browser which was removed in jQuery 1.9
+  jQuery.browser = {};
+  jQuery.browser.msie = false;
+  jQuery.browser.version = 0;
+  if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+    jQuery.browser.msie = true;
+    jQuery.browser.version = RegExp.$1;
+  }
+}
+
 (function(){
  "use strict";
 

@@ -43,7 +43,7 @@
   bottom: 50%;
   width: 3px;
   height: 15vmin;
-  transform-origin: 50% 50%;
+  transform-origin: 50% 100%; /* Changed to make hands extend from center point */
   background-color: rgba(255, 112, 184, 0.7); /* Pinkish color */
   box-shadow: 0 0 10px rgba(255, 112, 184, 0.3);
 }
@@ -76,28 +76,31 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 7px;
-  height: 7px;
-  background-color: rgba(255, 112, 184, 0.7);
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 112, 184, 0.8);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 
     0 0 7px rgba(255, 112, 184, 0.4),
     0 0 14px rgba(255, 112, 184, 0.2);
+  z-index: 1; /* Ensure the dot appears above the clock hands */
 }
 
-/* Fractal Clock CSS */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Behind the content */
-    opacity: 0.5; /* Subtle, adjust as needed */
-    pointer-events: none; /* Don't interfere with clicks */
+/* Additional fractal clock styles */
+.fractal-clock-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Behind the content */
+  opacity: 0.5; /* Subtle, adjust as needed */
+  pointer-events: none; /* Don't interfere with clicks */
 }
 
-    width: 100%;
-    height: 100%;
-    display: block;
+.fractal-clock-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
